@@ -42,7 +42,7 @@ If we were to update the (0,1) pixel back to black (k), our doubly linked list w
     <Association: Position: (0,0)=k>
 
 
-You can imagine that our program can become more complicated. For instance, suppose we have the following table of information (where we will imagine r corresponding to the color red, g to green and b to blue):
+The program can become more complicated. For instance, suppose we have the following table of information (where we will imagine r corresponding to the color red, g to green and b to blue):
 
 | | | | | |
 |-|-|-|-|-|
@@ -53,8 +53,7 @@ You can imagine that our program can become more complicated. For instance, supp
 |r|r|b|r|r|
 
 
-If we imagine tracing through the table from left to right starting with the top row and going through
-successive rows then we notice that we only need to record the following entries:
+Notice that we only need to record the following entries:
 
 | | | | | |
 |-|-|-|-|-|
@@ -79,7 +78,6 @@ on to the next:
     <Association: Position: (4,2)=b>
     <Association: Position: (4,3)=r>
 
-This assignment asks you to apply this technique to a  program, where individual cells of a table can be changed while your goal is to store that table in the most efficient way.
 
 ## Classes
 
